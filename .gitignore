@@ -1,0 +1,11 @@
+*.pt
+*.zip
+*.onnx
+runs/
+datasets/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+results/*
+!results/sample_predictions/
+!results/sample_predictions/*.jpg
