@@ -1,0 +1,9 @@
+ultralytics==8.0.196
+opencv-python==4.8.1.78
+torch==2.1.0
+torchvision==0.16.0
+numpy==1.26.2
+matplotlib==3.8.2
+onnx==1.15.0
+onnxruntime==1.16.3
+PyYAML==6.0.1
