@@ -1,5 +1,0 @@
-path: /Users/maridibalashankar/detection
-train: datasets/images/train
-val: datasets/images/val
-nc: 10
-names: ["pedestrian","people","bicycle","car","van","truck","tricycle","awning-tricycle","bus","motor"]
