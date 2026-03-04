@@ -1,0 +1,34 @@
+# Google Colab Training Configuration
+
+environment:
+  platform: Google Colab
+  gpu: Tesla T4
+  cuda: true
+
+dataset:
+  path: /content/detection/visdrone_clean/datasets
+  train: images/train
+  val: images/val
+  nc: 10
+
+model:
+  architecture: YOLOv8l
+  pretrained: yolov8l.pt
+
+training:
+  epochs: 150
+  batch_size: 8
+  image_size: 640
+  optimizer: AdamW
+  lr0: 0.001
+
+augmentation:
+  mosaic: 1.0
+  mixup: 0.2
+  copy_paste: 0.5
+  scale: 0.9
+  fliplr: 0.5
+
+output:
+  project: surveillance_yolov8
+  name: defence_colab_v3
