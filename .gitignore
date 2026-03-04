@@ -1,6 +1,7 @@
 *.pt
 *.zip
 *.onnx
+*.ipynb
 runs/
 datasets/
 __pycache__/
