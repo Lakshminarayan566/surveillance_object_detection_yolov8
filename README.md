@@ -146,10 +146,14 @@ Exports to ONNX/INT8 format — optimized for **Jetson Nano** and edge devices.
 
 Below are example detection results from the trained YOLOv8 model on the VisDrone aerial surveillance dataset.
 
-| Urban Traffic | Parking Area | Highway |
-|---------------|-------------|---------|
-| ![](results/sample_predictions/urban_traffic_detection.jpg) | ![](results/sample_predictions/parking_detection.jpg) | ![](results/sample_predictions/highway_vehicle_detection.jpg) |
+### Urban Traffic
+![](results/sample_predictions/urban_traffic_detection.jpg)
 
+### Parking Area
+![](results/sample_predictions/parking_detection.jpg)
+
+### Highway
+![](results/sample_predictions/highway_vehicle_detection.jpg)
 ## 🔬 How SAHI Works
 
 ```
